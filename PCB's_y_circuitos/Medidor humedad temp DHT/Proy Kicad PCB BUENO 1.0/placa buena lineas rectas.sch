@@ -1,0 +1,339 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pcb-sleep-acabado-rescue:DHT22_Temperature_Humidity-sensors-pcb-sleep-acabado-rescue TH1
+U 1 1 5CAAFEFB
+P 4375 1825
+F 0 "TH1" H 4653 2297 60  0000 L CNN
+F 1 "DHT22" H 4653 2191 60  0000 L CNN
+F 2 "Sensors:DHT22_Temperature_Humidity" H 4375 1825 60  0001 C CNN
+F 3 "" H 4375 1825 60  0000 C CNN
+	1    4375 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:XBEE-ComponentesCorcho-Definitivo-rescue U4
+U 1 1 5CAAFF90
+P 4550 3300
+F 0 "U4" H 4550 3947 60  0000 C CNN
+F 1 "XBEE" H 4550 3841 60  0000 C CNN
+F 2 "ProyectoCorcho:XBEE" H 4550 3300 60  0001 C CNN
+F 3 "" H 4550 3300 60  0001 C CNN
+	1    4550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:Bateria-ComponentesCorcho-Definitivo-rescue U1
+U 1 1 5CAB0001
+P 1300 1375
+F 0 "U1" V 703 1406 60  0000 C CNN
+F 1 "Bateria" V 809 1406 60  0000 C CNN
+F 2 "ProyectoCorcho:PinesBateria" H 1250 1375 60  0001 C CNN
+F 3 "" H 1250 1375 60  0001 C CNN
+	1    1300 1375
+	0    1    1    0   
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:ArduinMiniPro-ComponentesCorcho-Definitivo-rescue U2
+U 1 1 5CAB0093
+P 1875 3275
+F 0 "U2" H 1706 4612 60  0000 C CNN
+F 1 "Arduino" H 1706 4506 60  0000 C CNN
+F 2 "ProyectoCorcho:ArduinoProMini" H 1975 3775 60  0001 C CNN
+F 3 "" H 1975 3775 60  0001 C CNN
+	1    1875 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:Resistencia-ComponentesCorcho-Definitivo-rescue U9
+U 1 1 5CAB0154
+P 8975 2550
+F 0 "U9" V 8922 2708 60  0000 L CNN
+F 1 "R100" V 9028 2708 60  0000 L CNN
+F 2 "ProyectoCorcho:ResitenciaVertical" H 8975 2550 60  0001 C CNN
+F 3 "" H 8975 2550 60  0001 C CNN
+	1    8975 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:Resistencia-ComponentesCorcho-Definitivo-rescue U5
+U 1 1 5CAB01CC
+P 6575 2525
+F 0 "U5" V 6522 2683 60  0000 L CNN
+F 1 "R100" V 6628 2683 60  0000 L CNN
+F 2 "ProyectoCorcho:ResitenciaVertical" H 6575 2525 60  0001 C CNN
+F 3 "" H 6575 2525 60  0001 C CNN
+	1    6575 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:Resistencia-ComponentesCorcho-Definitivo-rescue U7
+U 1 1 5CAB0275
+P 7650 2550
+F 0 "U7" V 7597 2708 60  0000 L CNN
+F 1 "R1" V 7703 2708 60  0000 L CNN
+F 2 "ProyectoCorcho:ResitenciaVertical" H 7650 2550 60  0001 C CNN
+F 3 "" H 7650 2550 60  0001 C CNN
+	1    7650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:2N4401-ComponentesCorcho-Definitivo-rescue U6
+U 1 1 5CAB0484
+P 6625 1525
+F 0 "U6" H 6871 1597 60  0000 L CNN
+F 1 "BC" H 6871 1491 60  0000 L CNN
+F 2 "ProyectoCorcho:Transistor" H 6625 1525 60  0001 C CNN
+F 3 "" H 6625 1525 60  0001 C CNN
+	1    6625 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:2N4401-ComponentesCorcho-Definitivo-rescue U8
+U 1 1 5CAB0508
+P 7700 1525
+F 0 "U8" H 7946 1597 60  0000 L CNN
+F 1 "2N" H 7946 1491 60  0000 L CNN
+F 2 "ProyectoCorcho:Transistor1" H 7700 1525 60  0001 C CNN
+F 3 "" H 7700 1525 60  0001 C CNN
+	1    7700 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L pcb-sleep-acabado-rescue:2N4401-ComponentesCorcho-Definitivo-rescue U10
+U 1 1 5CAB0548
+P 9025 1525
+F 0 "U10" H 9271 1597 60  0000 L CNN
+F 1 "2N" H 9271 1491 60  0000 L CNN
+F 2 "ProyectoCorcho:Transistor1" H 9025 1525 60  0001 C CNN
+F 3 "" H 9025 1525 60  0001 C CNN
+	1    9025 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1025 1725 1025
+Wire Wire Line
+	1725 1025 1725 1225
+Wire Wire Line
+	1725 1225 1675 1225
+Wire Wire Line
+	1550 1725 1725 1725
+Wire Wire Line
+	1725 1725 1725 1525
+Wire Wire Line
+	1725 1525 1675 1525
+Wire Wire Line
+	1675 1525 1675 1225
+Connection ~ 1675 1525
+Wire Wire Line
+	1675 1525 1550 1525
+Connection ~ 1675 1225
+Wire Wire Line
+	1675 1225 1550 1225
+Wire Wire Line
+	1550 1625 1600 1625
+Wire Wire Line
+	1600 1625 1600 1425
+Wire Wire Line
+	1600 1425 1550 1425
+Wire Wire Line
+	1550 1325 1550 1375
+Connection ~ 1550 1425
+Wire Wire Line
+	1550 1125 1600 1125
+Wire Wire Line
+	1600 1125 1600 1325
+Wire Wire Line
+	1600 1325 1550 1325
+Connection ~ 1550 1325
+Text GLabel 1850 1025 2    50   Input ~ 0
+3.7V
+Text GLabel 1850 1375 2    50   Input ~ 0
+GND
+Wire Wire Line
+	1850 1025 1725 1025
+Connection ~ 1725 1025
+Wire Wire Line
+	1850 1375 1550 1375
+Connection ~ 1550 1375
+Wire Wire Line
+	1550 1375 1550 1425
+Text GLabel 975  3775 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1225 3775 975  3775
+Text GLabel 1000 3475 0    50   Input ~ 0
+3.7V_OUT-T
+Wire Wire Line
+	1225 3475 1000 3475
+$Comp
+L pcb-sleep-acabado-rescue:Resistencia-ComponentesCorcho-Definitivo-rescue U3
+U 1 1 5CAB25D5
+P 4500 2425
+F 0 "U3" H 4500 2742 60  0000 C CNN
+F 1 "R10K" H 4500 2636 60  0000 C CNN
+F 2 "ProyectoCorcho:ResitenciaVertical" H 4500 2425 60  0001 C CNN
+F 3 "" H 4500 2425 60  0001 C CNN
+	1    4500 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 1825 3900 1825
+Wire Wire Line
+	3900 1825 3900 2375
+Wire Wire Line
+	3900 2375 3950 2375
+Wire Wire Line
+	4325 1825 4325 1950
+Wire Wire Line
+	4325 2150 5050 2150
+Wire Wire Line
+	5050 2150 5050 2425
+Text GLabel 4600 1825 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4525 1825 4600 1825
+Text GLabel 3600 1825 0    50   Input ~ 0
+3.7V_OUT-T
+Wire Wire Line
+	3600 1825 3900 1825
+Connection ~ 3900 1825
+Text GLabel 2625 2875 2    50   Input ~ 0
+SENS_DATA
+Wire Wire Line
+	2525 2875 2625 2875
+Text GLabel 4625 1950 2    50   Input ~ 0
+SENS_DATA
+Wire Wire Line
+	4625 1950 4325 1950
+Connection ~ 4325 1950
+Wire Wire Line
+	4325 1950 4325 2150
+Text GLabel 3850 2950 0    50   Input ~ 0
+3.7V
+Wire Wire Line
+	3850 2950 3950 2950
+Text GLabel 3850 3050 0    50   Input ~ 0
+TX_XBEE
+Text GLabel 3850 3150 0    50   Input ~ 0
+RX_XBEE
+Text GLabel 3850 3650 0    50   Input ~ 0
+GND
+Text GLabel 5250 3500 2    50   Input ~ 0
+PINOUT_TRANSISTOR
+Wire Wire Line
+	5250 3500 5150 3500
+Wire Wire Line
+	3850 3650 3950 3650
+Wire Wire Line
+	3850 3150 3950 3150
+Wire Wire Line
+	3850 3050 3950 3050
+Text GLabel 6350 1825 0    50   Input ~ 0
+Salida_2T
+Text GLabel 6900 1825 2    50   Input ~ 0
+GND
+Text GLabel 7475 1825 0    50   Input ~ 0
+TX_XBEE
+Text GLabel 7925 1825 2    50   Input ~ 0
+RX_ARDUINO
+Text GLabel 8775 1825 0    50   Input ~ 0
+3.7V
+Text GLabel 9275 1825 2    50   Input ~ 0
+3.7V_OUT-T
+Text GLabel 8300 3525 3    50   Input ~ 0
+Salida_2T
+Text GLabel 6575 3500 3    50   Input ~ 0
+PINOUT_TRANSISTOR
+Wire Wire Line
+	6575 3075 6575 3500
+Wire Wire Line
+	6625 1775 6625 1975
+Wire Wire Line
+	6900 1825 6775 1825
+Wire Wire Line
+	6775 1825 6775 1775
+Wire Wire Line
+	6350 1825 6475 1825
+Wire Wire Line
+	6475 1825 6475 1775
+Wire Wire Line
+	7700 1775 7700 2000
+Wire Wire Line
+	7850 1775 7850 1825
+Wire Wire Line
+	7850 1825 7925 1825
+Wire Wire Line
+	7475 1825 7550 1825
+Wire Wire Line
+	7550 1825 7550 1775
+Wire Wire Line
+	8775 1825 8875 1825
+Wire Wire Line
+	8875 1825 8875 1775
+Wire Wire Line
+	9025 2000 9025 1775
+Wire Wire Line
+	9175 1775 9175 1825
+Wire Wire Line
+	9175 1825 9275 1825
+Wire Wire Line
+	7650 3100 7650 3525
+Wire Wire Line
+	8975 3525 8975 3100
+Wire Wire Line
+	7650 3525 8975 3525
+Text GLabel 4325 3850 0    50   Input ~ 0
+RX_XBEE
+Text GLabel 4600 3850 2    50   Input ~ 0
+TX_ARDUINO
+Wire Wire Line
+	4325 3850 4600 3850
+NoConn ~ 1225 2275
+NoConn ~ 1225 2425
+NoConn ~ 1225 2575
+NoConn ~ 1225 2725
+NoConn ~ 1225 2875
+NoConn ~ 1225 3025
+NoConn ~ 1225 3175
+NoConn ~ 1225 3325
+NoConn ~ 1225 3625
+NoConn ~ 1225 3925
+NoConn ~ 1975 4225
+NoConn ~ 2125 4225
+NoConn ~ 2525 3625
+NoConn ~ 2525 3475
+NoConn ~ 2525 2725
+NoConn ~ 2525 2575
+NoConn ~ 2525 2425
+NoConn ~ 2525 2275
+NoConn ~ 4425 1825
+NoConn ~ 5150 2900
+NoConn ~ 5150 3000
+NoConn ~ 5150 3100
+NoConn ~ 5150 3650
+Text Notes 7375 7500 0    50   ~ 0
+PCB DHT con sleep\n
+NoConn ~ 2525 3025
+Text GLabel 2700 3175 2    50   Input ~ 0
+TX_ARDUINO
+Text GLabel 2700 3325 2    50   Input ~ 0
+RX_ARDUINO
+Wire Wire Line
+	2525 3325 2700 3325
+Wire Wire Line
+	2700 3175 2525 3175
+$EndSCHEMATC
