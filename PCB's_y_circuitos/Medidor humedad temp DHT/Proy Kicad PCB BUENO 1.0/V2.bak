@@ -1,0 +1,78 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Definitivo-rescue:Bateria-ComponentesCorcho U3
+U 1 1 5CAF1103
+P 3175 2825
+F 0 "U3" H 3603 2910 60  0000 L CNN
+F 1 "Bateria-ComponentesCorcho" H 3603 2804 60  0000 L CNN
+F 2 "ProyectoCorcho:PinesBateria" H 3125 2825 60  0001 C CNN
+F 3 "" H 3125 2825 60  0001 C CNN
+	1    3175 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Definitivo-rescue:Resistencia-ComponentesCorcho U1
+U 1 1 5CAF117A
+P 2775 1775
+F 0 "U1" V 2722 1933 60  0000 L CNN
+F 1 "Resistencia-ComponentesCorcho" V 2828 1933 60  0000 L CNN
+F 2 "ProyectoCorcho:ResitenciaVertical" H 2775 1775 60  0001 C CNN
+F 3 "" H 2775 1775 60  0001 C CNN
+	1    2775 1775
+	0    1    1    0   
+$EndComp
+$Comp
+L Definitivo-rescue:Resistencia-ComponentesCorcho U4
+U 1 1 5CAF1203
+P 3550 1750
+F 0 "U4" V 3497 1908 60  0000 L CNN
+F 1 "Resistencia-ComponentesCorcho" V 3603 1908 60  0000 L CNN
+F 2 "ProyectoCorcho:ResitenciaVertical" H 3550 1750 60  0001 C CNN
+F 3 "" H 3550 1750 60  0001 C CNN
+	1    3550 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Definitivo-rescue:2N4401-ComponentesCorcho U2
+U 1 1 5CAF1282
+P 3175 950
+F 0 "U2" H 3422 1022 60  0000 L CNN
+F 1 "2N4401-ComponentesCorcho" H 3422 916 60  0000 L CNN
+F 2 "ProyectoCorcho:Transistor" H 3175 950 60  0001 C CNN
+F 3 "" H 3175 950 60  0001 C CNN
+	1    3175 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 1200 3600 1200
+Wire Wire Line
+	3000 1200 2825 1200
+Wire Wire Line
+	2825 1200 2825 1225
+Wire Wire Line
+	3525 2575 3525 2300
+Wire Wire Line
+	3525 2300 3550 2300
+Wire Wire Line
+	2825 2575 2825 2325
+Wire Wire Line
+	2825 2325 2775 2325
+Wire Wire Line
+	3175 1200 3175 2575
+Wire Wire Line
+	3175 2575 3225 2575
+$EndSCHEMATC
