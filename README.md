@@ -20,4 +20,4 @@
           Back side:
           
           
-![parteAtras](PCB's_y_circuitos/https://github.com/MKS2508/RaspberryPi_WirelessSensorControl/blob/develop/PCB's_y_circuitos/parteTrasera.png)
+![parteAtras](https://github.com/MKS2508/RaspberryPi_WirelessSensorControl/blob/develop/PCB's_y_circuitos/parteTrasera.png)
