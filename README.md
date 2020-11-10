@@ -12,12 +12,12 @@
 
 
 
-          **_Front side:_**
+          Front side:
           
           
-![parteAlante](PCB's_y_circuitos/https://github.com/MKS2508/RaspberryPi_WirelessSensorControl/blob/develop/PCB's_y_circuitos/parteAlante.png)
+![parteAlante](PCB's_y_circuitos/RaspberryPi_WirelessSensorControl/blob/develop/PCB's_y_circuitos/parteAlante.png)
 
-          **_Back side:_**
+          Back side:
           
           
 ![parteAtras](PCB's_y_circuitos/https://github.com/MKS2508/RaspberryPi_WirelessSensorControl/blob/develop/PCB's_y_circuitos/parteTrasera.png)
