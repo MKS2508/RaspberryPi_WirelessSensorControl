@@ -15,7 +15,7 @@
           Front side:
           
           
-![parteAlante](PCB's_y_circuitos/RaspberryPi_WirelessSensorControl/blob/develop/PCB's_y_circuitos/parteAlante.png)
+![parteAlante](PCB's_y_circuitos/parteAlante.png)
 
           Back side:
           
